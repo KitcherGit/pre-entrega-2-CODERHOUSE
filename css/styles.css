@@ -1,0 +1,43 @@
+
+/* Color NAV + Fuentes */
+header {
+    background-color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: gray ; 
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: gray; 
+}
+
+.btn-outline-success {
+    color: white ; 
+    --bs-btn-border-color: white;
+    --bs-btn-hover-bg: gray;
+    --bs-btn-hover-border-color: white;
+    --bs-btn-active-bg: gray;
+}
+
+.navbar-toggler-icon {
+    background-image: white (--bs-navbar-toggler-icon-bg);
+}
+
+
+/* Estilo al carousel */
+.c-item{
+    font-size: 22px;
+}
+
+.c-item h5{
+    font-size: 40px;
+}
+
+
+
+
