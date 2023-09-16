@@ -1,5 +1,20 @@
+/* Estilos globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/* Color NAV + Fuentes */
+body{
+    margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/* HEADER - Color NAV + Fuentes */
 header {
     background-color: black;
 }
@@ -29,7 +44,8 @@ header {
 }
 
 
-/* Estilo al carousel */
+
+/* SLIDE - Estilo al carousel */
 .c-item{
     font-size: 22px;
 }
@@ -38,6 +54,57 @@ header {
     font-size: 40px;
 }
 
+/* CARDS - Estilos */
+.zap-destacadas {
+    padding: 30px;
+}
+
+.container-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 80px;
+}
+
+.card{
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.card-img-top{
+    width: 500px;
+	height: 400px;
+	object-fit: cover;
+} 
+
+
+@media (min-width: 992px) {
+    .container-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+}
+
+@media (min-width: 1080px) {
+    .container-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1400px) {
+    .container-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1800px) {
+    .container-cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
 
 
 
