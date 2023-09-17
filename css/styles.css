@@ -45,7 +45,7 @@ header {
 
 
 
-/* SLIDE - Estilo al carousel */
+/* INDEX SLIDE - Estilo al carousel */
 .c-item{
     font-size: 22px;
 }
@@ -54,8 +54,8 @@ header {
     font-size: 40px;
 }
 
-/* CARDS - Estilos + MQ */
-.zap-destacadas {
+/* INDEX CARDS - Estilos + MQ */
+.main-title {
     padding: 30px;
 }
 
@@ -105,7 +105,7 @@ header {
     }
 }
 
-/* Estilo GIF */
+/* INDEX Estilo GIF */
 .video-box{
     width: 100%;
     max-width: 1200px;
@@ -206,4 +206,17 @@ ul{
     .footer-col {
         width: 100%;
     }
+}
+
+/* ZAPATILLAS Logos */
+
+.logos-zapatillas img{
+    height: 30px;
+    padding-left: 20px;
+}
+
+/* NOSOTROS Img */
+
+.container-history img{
+    width: 100%;
 }
