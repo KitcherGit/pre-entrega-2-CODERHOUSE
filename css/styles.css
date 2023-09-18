@@ -111,7 +111,7 @@ header {
     max-width: 1200px;
     height: auto;
     margin: 100px auto 0;
-
+    padding-bottom: 40px;
 }
 
 .video video{
@@ -209,6 +209,9 @@ ul{
 }
 
 /* ZAPATILLAS Logos */
+.logos-zapatillas{
+    padding-bottom: 20px;
+}
 
 .logos-zapatillas img{
     height: 30px;
@@ -216,7 +219,139 @@ ul{
 }
 
 /* NOSOTROS Img */
+.container-history{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 .container-history img{
     width: 100%;
+}
+
+/* LANZAMIENTOS Video */
+.video-box-lanzamiento{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+.video-lanzamiento video{
+    width: 100%;
+    height: auto;
+}
+
+/* CONTACTO Estilo */
+.container-form input, select, button{
+    font-size: 18px;
+}
+
+.container-form img{
+    width: 100%;
+}
+
+:focus{
+    outline: none;
+}
+
+.wrapper{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner{
+    padding: 20px;
+    background: #fff;
+    max-width: 850px;
+    margin: auto;
+    display: flex;
+}
+
+.inner .img-registro{
+    width: 50%;
+}
+
+.inner form{
+    width: 50%;
+    padding-top: 36px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.inner h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.form-group{
+    display: flex;
+}
+
+.form-group input{
+    width: 50%;
+}
+
+.form-group input:first-child{
+    margin-right: 25px;
+}
+
+.form-wrapper{
+    position: relative;
+}
+
+.form-control{
+    border: 1px solid gray;
+    border: none;
+    border-bottom: 1px solid gray;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding-right: 0;
+    margin-bottom: 25px;
+}
+
+.container-form select{
+    cursor: pointer;
+}
+
+.container-form select option[value=""][disabled]{
+    display: none;
+} 
+
+.container-form button{
+    border: none;
+    width: 164px;
+    height: 51px;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    background-color: #a72a68;
+    font-size: 15px;
+    color: #fff;
+}
+
+@media (max-width: 767px){
+    .inner{
+        display: block;
+    }
+    .inner .img-registro{
+        width: 100%;
+    }
+    .inner form{
+        width: 100%;
+        padding: 40px 0 30px;
+    }
+    .container-form button{
+        margin-top: 60px;
+    }
 }
